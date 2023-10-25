@@ -1,3 +1,86 @@
 ## <font color="yellow"><u>What is std::deque?</u></f>
 
+std::deque is a container class in C++ that provides the functionality of a double-ended queue, which is a data structure that allows fast insertion and deletion at both its front and back. Unlike std::vector, the elements of a deque are not stored contiguously in memory, but rather in separate chunks that are linked together. This means that accessing elements by index requires two pointer dereferences, but also that the deque can grow or shrink without copying or moving its elements. A deque is useful when you need to add or remove elements from both ends of a sequence, and you don’t need direct access to the middle elements.
+
+<u>Here is an example of how to use std::deque:</u>
+
+```c++
+#include <iostream>
+#include <deque>
+
+int main()
+{
+    // create an empty deque of integers
+    std::deque<int> d;
+
+    // push some elements into the deque
+    d.push_back(10); // insert 10 at the back
+    d.push_front(20); // insert 20 at the front
+    d.push_back(30); // insert 30 at the back
+    d.push_front(15); // insert 15 at the front
+
+    // print the size of the deque
+    std::cout << "The size of the deque is " << d.size() << "\n";
+
+    // print the elements of the deque using an iterator
+    std::cout << "The elements of the deque are: ";
+    for (auto it = d.begin(); it != d.end(); ++it) {
+        std::cout << *it << " ";
+    }
+    std::cout << "\n";
+
+    // print the elements of the deque using an index
+    std::cout << "The elements of the deque are: ";
+    for (size_t i = 0; i < d.size(); ++i) {
+        std::cout << d[i] << " ";
+    }
+    std::cout << "\n";
+
+    // pop some elements from the deque
+    d.pop_front(); // remove the first element
+    d.pop_back(); // remove the last element
+
+    // print the size of the deque after popping
+    std::cout << "The size of the deque after popping is " << d.size() << "\n";
+
+    // print the front and back elements of the deque
+    std::cout << "The front element is " << d.front() << "\n";
+    std::cout << "The back element is " << d.back() << "\n";
+
+    return 0;
+}
+```
+
+The output of this program is:
+
+```
+The size of the deque is 4
+The elements of the deque are: 15 20 10 30 
+The elements of the deque are: 15 20 10 30 
+The size of the deque after popping is 2
+The front element is 20
+The back element is 10
+```
+
+As you can see, std::deque allows us to insert and delete elements from both ends of the container, and access them by index or iterator. This is one example of how std::deque can be used in a C++ program.
+
+
+![[Deque specs.png]]
+
+---
+## <font color="yellow"><u>std::deque methods:</u></f>
+
+|Method|Description|
+|---|---|
+|`push_back(value)`|Adds the `value` to the back of the deque.|
+|`push_front(value)`|Adds the `value` to the front of the deque.|
+|`pop_back()`|Removes the element at the back of the deque.|
+|`pop_front()`|Removes the element at the front of the deque.|
+|`front()`|Returns a reference to the element at the front of the deque.|
+|`back()`|Returns a reference to the element at the back of the deque.|
+|`empty()`|Checks if the deque is empty.|
+|`size()`|Returns the number of elements in the deque.|
+|`clear()`|Removes all elements from the deque.|
+
+---
 

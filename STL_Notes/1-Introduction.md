@@ -6,6 +6,6 @@
 
 - The STL is a powerful and flexible tool for C++ programming. It can help you write more concise, efficient, and reusable code.
 
-- *Developed by Alexander Stepenov & Meng Lee at Hewlett Packard
+- *Developed by Alexander Stepenov & Meng Lee at Hewlett Packard*
 
 ![[Container types.png]]
