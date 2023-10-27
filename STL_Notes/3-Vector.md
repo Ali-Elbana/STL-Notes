@@ -15,7 +15,9 @@ std::vector is one of the most commonly used containers in C++ because it is eas
 ```C++
 #include <vector>
 
-int main() {
+int main() 
+{
+
   std::vector<int> my_vector = {1, 2, 3};
 
   // Print the first element of the vector.

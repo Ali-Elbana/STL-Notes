@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7-Stack.md",
+                "file": "8-Pair.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8d6385fe327a797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9-Tuple.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7-Stack.md",
+                "file": "9-Tuple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7-Stack.md",
+                "file": "9-Tuple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7-Stack.md"
+                "file": "9-Tuple.md"
               }
             }
           },
@@ -156,15 +169,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc3e2ea6c460723a",
+  "active": "e8d6385fe327a797",
   "lastOpenFiles": [
-    "5-Priority Queue.md",
-    "7-Stack.md",
-    "6-Deque.md",
-    "Images/Deque specs.png",
-    "1-Introduction.md",
-    "4-Queue.md",
+    "8-Pair.md",
+    "9-Tuple.md",
     "3-Vector.md",
+    "7-Stack.md",
+    "1-Introduction.md",
+    "6-Deque.md",
+    "5-Priority Queue.md",
+    "Images/Deque specs.png",
+    "4-Queue.md",
     "2-Array.md",
     "Images/stdvector specs.png",
     "Images/Container types.png",
