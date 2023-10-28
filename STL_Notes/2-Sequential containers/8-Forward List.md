@@ -1,0 +1,102 @@
+## <font color="yellow"><u>What is std::forward_list?</u></f>
+
+`std::forward_list` is a container class template provided by the C++ Standard Library. It represents a singly linked list, where each element is stored in a separate node that contains a link to the next node in the list. The `std::forward_list` container is part of the C++11 standard and is defined in the `<forward_list>` header.
+
+Here are some key features and characteristics of `std::forward_list`:
+
+1. Singly Linked List: `std::forward_list` stores its elements in a singly linked list data structure. Each node contains the element value and a pointer to the next node in the list. Unlike `std::list`, it does not support backward traversal from a node.
+
+2. Dynamic Size: The size of a `std::forward_list` can change dynamically as elements are added or removed. It does not have a fixed capacity like `std::array` or `std::vector`.
+
+3. Forward Iteration: Iteration over the elements of a `std::forward_list` is done in a forward direction. You can use iterators to traverse the list, but they only support moving forward to the next element.
+
+4. Efficient Insertion and Removal: `std::forward_list` provides efficient insertion and removal operations at the beginning of the list or after a given position. These operations have a constant time complexity of O(1) as they involve updating the links between nodes.
+
+5. Limited Random Access: `std::forward_list` does not provide direct random access to elements using the subscript operator (`[]`) or the `at()` function. To access elements, you need to traverse the list sequentially from the beginning to reach the desired position.
+
+6. Memory Efficiency: Compared to other list-like containers such as `std::list` or `std::deque`, `std::forward_list` generally has a lower memory overhead. It only needs to store the element value and the next node pointer, without requiring additional space for backward links.
+
+7. No Reverse Iteration: `std::forward_list` does not support reverse iteration. If you need to iterate in reverse order, you would either need to use additional data structures or consider using `std::list` instead.
+
+`std::forward_list` provides a lightweight and efficient container for scenarios where forward iteration, dynamic size changes, and efficient insertion/removal at the beginning or after a given position are the primary requirements.
+
+
+![[Forward list specs.png]]
+
+Here's an example that demonstrates the usage of `std::forward_list`:
+
+```cpp
+#include <iostream>
+#include <forward_list>
+
+int main() {
+    // Create a forward_list of integers
+    std::forward_list<int> numbers;
+
+    // Insert elements at the beginning of the list
+    numbers.push_front(3);
+    numbers.push_front(2);
+    numbers.push_front(1);
+
+    // Insert an element after a specific position
+    auto it = numbers.begin();
+    std::advance(it, 2);
+    numbers.insert_after(it, 4);
+
+    // Traverse and print the elements
+    for (const auto& num : numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    // Remove the second element
+    it = numbers.begin();
+    std::advance(it, 1);
+    numbers.erase_after(it);
+
+    // Traverse and print the elements after removal
+    for (const auto& num : numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
+
+In this example, we create a `std::forward_list` called `numbers` to store integers. We then insert elements at the beginning of the list using `push_front()`. After that, we use `insert_after()` to insert an element after a specific position in the list.
+
+Next, we traverse the list and print the elements using a range-based for loop. We also demonstrate how to remove an element from the list using `erase_after()`.
+
+The output of the program will be:
+```
+1 2 4 3
+1 4 3
+```
+
+As you can see, the elements are stored in the `std::forward_list` in the order they were inserted, and we can manipulate the list by inserting and removing elements at specific positions.
+
+---
+## <font color="yellow"><u>std::forward_list methods:</u></f>
+
+|Method|Functionality|Example|
+|---|---|---|
+|`insert_after`|Inserts an element after a specific position in the list|`numbers.insert_after(it, 4);`|
+|`erase_after`|Removes the element after a specific position in the list|`numbers.erase_after(it);`|
+|`push_front`|Inserts an element at the beginning of the list|`numbers.push_front(3);`|
+|`pop_front`|Removes the first element in the list|`numbers.pop_front();`|
+|`emplace_after`|Constructs an element in-place after a specific position|`numbers.emplace_after(it, 5);`|
+|`resize`|Resizes the list to contain a specific number of elements|`numbers.resize(5);`|
+|`clear`|Removes all elements from the list|`numbers.clear();`|
+|`empty`|Checks if the list is empty|`if (numbers.empty()) { /* List is empty */ }`|
+|`size`|Returns the number of elements in the list|`int count = numbers.size();`|
+|`max_size`|Returns the maximum number of elements the list can hold|`std::size_t maxSize = numbers.max_size();`|
+|`begin`|Returns an iterator to the beginning of the list|`auto it = numbers.begin();`|
+|`end`|Returns an iterator to the end of the list|`auto it = numbers.end();`|
+|`cbegin`|Returns a constant iterator to the beginning of the list|`auto cit = numbers.cbegin();`|
+|`cend`|Returns a constant iterator to the end of the list|`auto cit = numbers.cend();`|
+|`front`|Returns a reference to the first element in the list|`int firstElement = numbers.front();`|
+
+---
+
+

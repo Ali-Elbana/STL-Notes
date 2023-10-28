@@ -1,0 +1,62 @@
+## <font color="yellow"><u>What is std::set?</u></f>
+
+std::set is a standard library container in C++ that stores a set of unique elements in a sorted order. The elements in a set are sorted according to a comparison function, which is typically the less-than operator (<).
+
+std::set is an associative container, which means that each element in the set has a key that is used to identify it. The key of an element in a set is the element itself.
+
+std::set is a very useful container for storing data that needs to be kept unique and sorted, such as a list of unique words in a document or a set of unique product IDs in an online store.
+
+![[Set specs.png]]
+
+<u>Here is an example of how to use std::set:</u>
+
+```cpp
+#include <iostream>
+#include <set>
+
+int main() 
+{
+  // Create a std::set to store a list of unique words.
+  std::set<std::string> words;
+
+  // Add some words to the set.
+  words.insert("hello");
+  words.insert("world");
+  words.insert("!");
+
+  // Print the words in the set.
+  for (const auto& word : words) {
+    std::cout << word << " ";
+  }
+  std::cout << std::endl;
+
+  return 0;
+}
+```
+
+Output:
+
+```
+hello ! world
+```
+
+
+
+
+---
+## <font color="yellow"><u>std::set methods:</u></f>
+
+|Method|Functionality|Example|
+|---|---|---|
+|`set::begin()`|Returns an iterator to the first element in the set|`std::set<int> s = {1, 2, 3};`<br>`auto it = s.begin(); // it points to 1`|
+|`set::end()`|Returns an iterator to the past-the-end element in the set|`std::set<int> s = {1, 2, 3};`<br>`auto it = s.end(); // it points to the position after 3`|
+|`set::size()`|Returns the number of elements in the set|`std::set<int> s = {1, 2, 3};`<br>`std::cout << s.size(); // prints 3`|
+|`set::empty()`|Checks whether the set is empty or not|`std::set<int> s = {1, 2, 3};`<br>`std::cout << std::boolalpha << s.empty(); // prints false`|
+|`set::insert()`|Inserts an element or a range of elements into the set|`std::set<int> s = {1, 2, 3};`<br>`s.insert(4); // inserts 4 into the set`<br>`s.insert({5, 6}); // inserts 5 and 6 into the set`|
+|`set::erase()`|Erases an element or a range of elements from the set|`std::set<int> s = {1, 2, 3};`<br>`s.erase(2); // erases 2 from the set`<br>`s.erase(s.begin(), s.end()); // erases all elements from the set`|
+|`set::clear()`|Removes all elements from the set|`std::set<int> s = {1, 2, 3};`<br>`s.clear(); // clears the set`|
+|`set::find()`|Searches for an element in the set and returns an iterator to it if found, or to end() if not found|`std::set<int> s = {1, 2, 3};`<br>`auto it = s.find(2); // it points to 2`<br>`auto it2 = s.find(4); // it points to end()`|
+|`set::count()`|Returns the number of elements in the set that are equal to a given value (always either 0 or 1 for std::set)|`std::set<int> s = {1, 2, 3};`<br>`std::cout << s.count(2); // prints 1`<br>`std::cout << s.count(4); // prints 0`|
+
+---
+

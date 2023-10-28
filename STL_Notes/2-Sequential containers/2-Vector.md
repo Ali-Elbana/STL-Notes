@@ -8,7 +8,7 @@ Unlike static arrays, std::vector can grow and shrink dynamically as needed, wit
 
 std::vector is one of the most commonly used containers in C++ because it is easy to use and offers great flexibility and performance for most scenarios. 
 
-![[stdvector specs.png]]
+![[Vector specs.png]]
 
 <u>Here is an example of how to use std::array in C++:</u>
 

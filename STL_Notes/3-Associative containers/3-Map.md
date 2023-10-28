@@ -1,0 +1,81 @@
+## <font color="yellow"><u>What is std::map?</u></font>
+
+std::map is a container in the C++ Standard Template Library (STL) that stores key-value pairs, where the keys are sorted and unique. The values in a std::map can be of any type, but the keys must be of a type that supports a comparison operator.
+
+std::map is implemented as a balanced binary search tree, which means that search, insertion, and removal operations have logarithmic time complexity. std::map also supports reverse iterators, which can be used to traverse the elements in reverse order.
+
+![[Map specs.png]]
+
+std::map is a versatile container that can be used in a variety of applications. For example, it can be used to store a dictionary, a phone book, or a database.
+
+<u>Here is an example of how to use std::map:</u>
+
+```C++
+#include <iostream>
+#include <map>
+
+int main() {
+  std::map<std::string, int> my_map = {
+    {"key1", 10},
+    {"key2", 20},
+    {"key3", 30}
+  };
+
+  // Print the key-value pairs in the map.
+  for (const auto& [key, value] : my_map) {
+    std::cout << key << ": " << value << std::endl;
+  }
+
+  return 0;
+}
+```
+
+Output:
+
+```
+key1: 10
+key2: 20
+key3: 30
+```
+
+---
+## <font color="yellow"><u>std::map methods:</u></f>
+
+|Method|Functionality|Example|
+|---|---|---|
+|`map::map()`|Constructs a map object, optionally with a comparison function, an allocator, or a range of elements|`std::map<std::string, int> m1; // default constructor`<br>`std::map<std::string, int> m2(m1); // copy constructor`<br>`std::map<std::string, int> m3(std::greater<>()); // constructor with comparison function`<br>`std::map<std::string, int> m4({{"one", 1}, {"two", 2}}); // constructor with initializer list`|
+|`map::~map()`|Destroys the map object and frees the allocated memory|`m1.~map(); // destructor`|
+|`map::operator=`|Assigns a new value to the map object, replacing its current content|`m1 = m2; // copy assignment`<br>`m1 = {{"three", 3}, {"four", 4}}; // move assignment`|
+|`map::get_allocator()`|Returns a copy of the allocator object associated with the map|`auto alloc = m1.get_allocator(); // alloc is of type std::allocator<std::pair<const std::string, int>>`|
+|`map::at()`|Returns a reference to the mapped value of the element with a given key|`std::cout << m1.at("one"); // prints 1`<br>`m1.at("two") = 3; // modifies the value of "two" to 3`|
+|`map::operator[]`|Returns a reference to the mapped value of the element with a given key, inserting it if it does not exist|`std::cout << m1["one"]; // prints 1`<br>`m1["three"] = 4; // inserts {"three", 4} into the map`|
+|`map::begin()`|Returns an iterator to the first element in the map|`auto it = m1.begin(); // it points to the first element in the map`|
+|`map::end()`|Returns an iterator to the past-the-end element in the map|`auto it = m1.end(); // it points to the position after the last element in the map`|
+|`map::rbegin()`|Returns a reverse iterator to the last element in the map|`auto rit = m1.rbegin(); // rit points to the last element in the map`|
+|`map::rend()`|Returns a reverse iterator to the element before the first element in the map|`auto rit = m1.rend(); // rit points to the position before the first element in the map`|
+|`map::cbegin()`|Returns a const iterator to the first element in the map (C++11)|`auto cit = m1.cbegin(); // cit points to the first element in the map and cannot modify it`|
+|`map::cend()`|Returns a const iterator to the past-the-end element in the map (C++11)|`auto cit = m1.cend(); // cit points to the position after the last element in the map and cannot modify it`|
+|`map::crbegin()`|Returns a const reverse iterator to the last element in the map (C++11)|`auto crit = m1.crbegin(); // crit points to the last element in the map and cannot modify it`|
+|`map::crend()`|Returns a const reverse iterator to the element before the first element in the map (C++11)|`auto crit = m1.crend(); // crit points to the position before the first element in the map and cannot modify it`|
+|`map::empty()`|Checks whether the map is empty or not|`std::cout << std::boolalpha << m1.empty(); // prints false if m1 has elements, true otherwise`|
+|`map::size()`|Returns the number of elements in the map|`std::cout << m1.size(); // prints how many elements are in m1`|
+|`map::max_size()`|Returns the maximum number of elements that can be held by the map according to its allocator type and system limitations|`std::cout << m1.max_size(); // prints a very large number that represents an upper bound on how many elements can be stored in m1`|
+|`map::clear()`|Removes all elements from the map, leaving it with size zero|`m1.clear(); // clears all elements from m1`|
+|`map::insert()`|Inserts an element or a range of elements into the map, preserving its sorted order and uniqueness of keys|`m1.insert(std::make_pair("five", 5)); // inserts {"five", 5} into the map`<br>`m1.insert(m2.begin(), m2.end()); // inserts all elements from m2 into m1`|
+|`map::emplace()`|Constructs and inserts an element into the map, preserving its sorted order and uniqueness of keys (C++11)|`m1.emplace("six", 6); // constructs and inserts {"six", 6} into the map`|
+|`map::emplace_hint()`|Constructs and inserts an element into the map with a hint on the insertion position, preserving its sorted order and uniqueness of keys (C++11)|`auto it = m1.find("five"); // it points to {"five", 5}`<br>`m1.emplace_hint(it, "seven", 7); // constructs and inserts {"seven", 7} into the map using it as a hint`|
+|`map::erase()`|Erases an element or a range of elements from the map by key or by iterator|`m1.erase("one"); // erases the element with key "one" from the map`<br>`m1.erase(m1.begin(), m1.end()); // erases all elements from the map`|
+|`map::swap()`|Exchanges the contents of two maps of the same type|`m1.swap(m2); // swaps the contents of m1 and m2`|
+|`map::extract()`|Removes an element from the map and returns it as a node handle, which can be used to transfer ownership of the element (C++17)|`auto nh = m1.extract("one"); // nh is a node handle that contains {"one", 1}`<br>`m2.insert(std::move(nh)); // transfers ownership of {"one", 1} to m2`|
+|`map::merge()`|Transfers elements from another map or multimap into the map, preserving its sorted order and uniqueness of keys (C++17)|`m1.merge(m2); // transfers all elements from m2 to m1, if they do not have equivalent keys in m1`|
+|`map::find()`|Searches for an element in the map by key and returns an iterator to it if found, or to end() if not found|`auto it = m1.find("two"); // it points to {"two", 2} if found, or to end() if not found`|
+|`map::count()`|Returns the number of elements in the map with a given key (always either zero or one for std::map)|`std::cout << m1.count("two"); // prints 1 if "two" is in the map, or 0 otherwise`|
+|`map::lower_bound()`|Returns an iterator to the first element in the map that is not less than a given key|`auto it = m1.lower_bound("three"); // it points to {"three", 3} or to end() if no such element exists`|
+|`map::upper_bound()`|Returns an iterator to the first element in the map that is greater than a given key|`auto it = m1.upper_bound("three"); // it points to {"four", 4} or to end() if no such element exists`|
+|`map::equal_range()`|Returns a pair of iterators to the range of elements in the map that are equivalent to a given key|`auto p = m1.equal_range("three"); // p is a pair of iterators that point to {"three", 3} and {"four", 4}, or both point to end() if no such element exists`|
+|`map::key_comp()`|Returns the comparison function used to order the keys in the map|`auto comp = m1.key_comp(); // comp is a function object that compares two keys using std::less by default`|
+|`map::value_comp()`|Returns the comparison function used to order the key-value pairs in the map|`auto comp = m1.value_comp(); // comp is a function object that compares two key-value pairs by comparing their keys using std::less by default`|
+
+---
+
+

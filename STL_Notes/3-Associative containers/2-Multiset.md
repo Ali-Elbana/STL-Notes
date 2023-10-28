@@ -1,0 +1,58 @@
+## <font color="yellow"><u>What is std::multiset?</u></font>
+
+std::multiset is a container in the C++ Standard Template Library (STL) that stores a sorted set of unique elements. It is similar to std::set, but allows multiple elements with the same value. 
+The elements in a multiset are sorted using a key comparison function, which is specified as the second template parameter.
+
+std::multiset is an associative container, which means that it supports efficient search, insertion, and removal operations. It also supports reverse iterators, which can be used to traverse the elements in reverse order.
+
+<u>Here is an example of how to use std::multiset:</u>
+
+```cpp
+#include <iostream>
+#include <set>
+
+int main() 
+{
+
+  std::multiset<int> my_multiset;
+
+  // Insert some elements into the multiset.
+  my_multiset.insert(10);
+  my_multiset.insert(20);
+  my_multiset.insert(30);
+  my_multiset.insert(10);
+
+  // Print the elements in the multiset.
+  for (auto it = my_multiset.begin(); it != my_multiset.end(); ++it) {
+    std::cout << *it << std::endl;
+  }
+
+  return 0;
+}
+```
+
+Output:
+
+```
+10
+20
+30
+```
+
+---
+## <font color="yellow"><u>std::multiset methods:</u></f>
+
+|Method|Functionality|Example|
+|---|---|---|
+|`multiset::begin()`|Returns an iterator to the first element in the multiset|`std::multiset<int> s = {1, 2, 2, 3};`<br>`auto it = s.begin(); // it points to 1`|
+|`multiset::end()`|Returns an iterator to the past-the-end element in the multiset|`std::multiset<int> s = {1, 2, 2, 3};`<br>`auto it = s.end(); // it points to the position after 3`|
+|`multiset::size()`|Returns the number of elements in the multiset|`std::multiset<int> s = {1, 2, 2, 3};`<br>`std::cout << s.size(); // prints 4`|
+|`multiset::empty()`|Checks whether the multiset is empty or not|`std::multiset<int> s = {1, 2, 2, 3};`<br>`std::cout << std::boolalpha << s.empty(); // prints false`|
+|`multiset::insert()`|Inserts an element or a range of elements into the multiset|`std::multiset<int> s = {1, 2, 2, 3};`<br>`s.insert(4); // inserts 4 into the multiset`<br>`s.insert({5, 6}); // inserts 5 and 6 into the multiset`|
+|`multiset::erase()`|Erases an element or a range of elements from the multiset|`std::multiset<int> s = {1, 2, 2, 3};`<br>`s.erase(2); // erases both occurrences of 2 from the multiset`<br>`s.erase(s.begin(), s.end()); // erases all elements from the multiset`|
+|`multiset::clear()`|Removes all elements from the multiset|`std::multiset<int> s = {1, 2, 2, 3};`<br>`s.clear(); // clears the multiset`|
+|`multiset::find()`|Searches for an element in the multiset and returns an iterator to it if found, or to end() if not found|`std::multiset<int> s = {1, 2, 2, 3};`<br>`auto it = s.find(2); // it points to one of the occurrences of 2`<br>`auto it2 = s.find(4); // it points to end()`|
+|`multiset::count()`|Returns the number of elements in the multiset that are equal to a given value|`std::multiset<int> s = {1, 2, 2, 3};`<br>`std::cout << s.count(2); // prints 2`<br>`std::cout << s.count(4); // prints 0`|
+
+---
+

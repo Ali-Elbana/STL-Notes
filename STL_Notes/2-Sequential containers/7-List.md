@@ -1,0 +1,77 @@
+## <font color="yellow"><u>What is std::list?</u></f>
+
+
+`std::list` is a doubly linked list container class in the C++ Standard Library. It is implemented as a sequence of nodes, where each node contains a value and two pointers, one pointing to the previous node and the other to the next node in the list. This doubly linked structure allows for efficient insertion and removal of elements at both the beginning and end of the list, as well as in the middle.
+
+The `std::list` template is defined in the `<list>` header and has the following syntax:
+
+```cpp
+template <class T, class Allocator = std::allocator<T>>
+class list;
+```
+
+The `std::list` template takes two template parameters: `T`, which is the type of the elements to be stored in the list, and `Allocator`, which is an optional allocator type for managing the memory of the list. If no allocator is specified, the default allocator `std::allocator<T>` is used.
+
+Here's an example of using `std::list`:
+
+```cpp
+#include <iostream>
+#include <list>
+
+int main()
+{
+    std::list<int> myList;
+
+    myList.push_back(10);
+    myList.push_back(20);
+    myList.push_front(5);
+
+    for (const auto& element : myList) {
+        std::cout << element << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
+
+Output:
+```
+5 10 20
+```
+
+In this example, we create a `std::list` named `myList` to store integers. We then use the member functions `push_back` and `push_front` to add elements to the list. After that, we iterate over the elements of the list using a range-based for loop and print them to the console.
+
+`std::list` provides a variety of member functions for manipulating and accessing the elements in the list, such as `push_back`, `push_front`, `pop_back`, `pop_front`, `insert`, `erase`, `size`, `empty`, and more. It allows efficient insertion and removal of elements anywhere in the list, but accessing elements by index is not as efficient as in random-access containers like `std::vector`.
+
+`std::list` is useful in scenarios where frequent insertion and removal of elements are required, especially at the beginning or end of the list. It provides a flexible and efficient data structure for managing dynamic collections of elements.
+
+
+![[List specs.png]]
+
+---
+## <font color="yellow"><u>std::list methods:</u></f>
+
+|Method|Functionality|Example|
+|---|---|---|
+|`push_back`|Adds an element to the end of the list|`myList.push_back(10);`|
+|`push_front`|Adds an element to the beginning of the list|`myList.push_front(5);`|
+|`pop_back`|Removes the last element from the list|`myList.pop_back();`|
+|`pop_front`|Removes the first element from the list|`myList.pop_front();`|
+|`insert`|Inserts elements at a specified position in the list|`myList.insert(std::next(myList.begin()), 15);`|
+|`erase`|Removes elements from a specified range or position|`myList.erase(std::next(myList.begin()));`|
+|`size`|Returns the number of elements in the list|`std::size_t listSize = myList.size();`|
+|`empty`|Checks if the list is empty|`bool isEmpty = myList.empty();`|
+|`begin`|Returns an iterator to the beginning of the list|`auto it = myList.begin();`|
+|`end`|Returns an iterator to the end of the list|`auto it = myList.end();`|
+|`front`|Accesses the first element of the list|`int firstElement = myList.front();`|
+|`back`|Accesses the last element of the list|`int lastElement = myList.back();`|
+|`clear`|Removes all elements from the list|`myList.clear();`|
+|`splice`|Moves elements from one list to another at a specified position|`myList2.splice(std::next(myList2.begin()), myList);`|
+|`sort`|Sorts the elements in the list|`myList.sort();`|
+|`reverse`|Reverses the order of the elements in the list|`myList.reverse();`|
+
+---
+
+
+

@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc3e2ea6c460723a",
+            "id": "bac0e2d388e757fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8-Pair.md",
+                "file": "3-Associative containers/2-Multiset.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e8d6385fe327a797",
+            "id": "c740cdf8da36295e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9-Tuple.md",
+                "file": "3-Associative containers/4-Multimap.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9-Tuple.md",
+                "file": "3-Associative containers/4-Multimap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9-Tuple.md",
+                "file": "3-Associative containers/4-Multimap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9-Tuple.md"
+                "file": "3-Associative containers/4-Multimap.md"
               }
             }
           },
@@ -169,22 +169,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8d6385fe327a797",
+  "active": "c740cdf8da36295e",
   "lastOpenFiles": [
-    "8-Pair.md",
-    "9-Tuple.md",
-    "3-Vector.md",
-    "7-Stack.md",
-    "1-Introduction.md",
-    "6-Deque.md",
-    "5-Priority Queue.md",
-    "Images/Deque specs.png",
-    "4-Queue.md",
-    "2-Array.md",
-    "Images/stdvector specs.png",
-    "Images/Container types.png",
+    "6-Comparisons/4-Map vs Multimap.md",
+    "6-Comparisons/2-Vector vs Forward list.md",
+    "6-Comparisons/3-Set vs Multiset.md",
+    "3-Associative containers/4-Multimap.md",
+    "3-Associative containers/2-Multiset.md",
+    "3-Associative containers/3-Map.md",
+    "2-Sequential containers/7-List.md",
+    "2-Sequential containers/8-Forward List.md",
+    "3-Associative containers/1-Set.md",
+    "7-Images/Map specs.png",
+    "7-Images/Set specs.png",
+    "2-Sequential containers/4-Priority Queue.md",
+    "5-Class templates/1-Pair.md",
+    "2-Sequential containers/6-Stack.md",
+    "5-Class templates/2-Tuple.md",
+    "1-Introduction/1-Intro.md",
+    "5-Class templates",
+    "4-Unordered associative containers",
+    "3-Associative containers",
+    "1-Introduction",
+    "2-Sequential containers/5-Deque.md",
+    "2-Sequential containers/3-Queue.md",
+    "2-Sequential containers/2-Vector.md",
+    "2-Sequential containers/1-Array.md",
+    "2-Sequential containers",
+    "6-Comparisons/1-Deque vs List.md",
+    "7-Images/Forward list specs.png",
+    "6-Comparisons",
+    "7-Images/List specs.png",
+    "7-Images/Deque specs.png",
+    "7-Images/Vector specs.png",
+    "7-Images/Container types.png",
     "1-Introduction/Untitled.md",
-    "Images",
+    "7-Images",
     "1-Introduction"
   ]
 }
