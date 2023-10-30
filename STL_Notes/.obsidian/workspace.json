@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8-Algorithms Summary/8.1-STL Algorithms Summary.md",
+                "file": "1-Introduction/1.1-Intro to STL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8-Algorithms Summary/8.1-STL Algorithms Summary.md",
+                "file": "1-Introduction/1.1-Intro to STL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8-Algorithms Summary/8.1-STL Algorithms Summary.md",
+                "file": "1-Introduction/1.1-Intro to STL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8-Algorithms Summary/8.1-STL Algorithms Summary.md"
+                "file": "1-Introduction/1.1-Intro to STL.md"
               }
             }
           },
@@ -178,11 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8678fe11a0ae2d31",
+  "active": "6846304c4851df60",
   "lastOpenFiles": [
+    "8-Algorithms Summary/8.1-STL Algorithms Summary.md",
     "10-Images/8.1-STL Algorithms Summary.png",
     "6-Containers Summary/6.1-STL Containers Summary.md",
-    "8-Algorithms Summary/8.1-STL Algorithms Summary.md",
     "7-Algorithms/7.1-Introduction.md",
     "9-Comparisons/9.2-Algorithms/9.2.3-For_each vs Range based for loop.md",
     "9-Comparisons/9.2-Algorithms/9.2.2-Count vs Count if.md",
@@ -220,7 +220,6 @@
     "10-Images/2.8-Forward list specs.png",
     "10-Images/2.7-List specs.png",
     "10-Images/2.5-Deque specs.png",
-    "10-Images/2.2-Vector specs.png",
     "5-Class templates",
     "4-Unordered associative containers",
     "3-Associative containers",
