@@ -1,1 +1,19 @@
-{}
+{
+  "execute-code:code-execute-open-manage-executors": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "execute-code:run-all-code-blocks-in-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ]
+}
