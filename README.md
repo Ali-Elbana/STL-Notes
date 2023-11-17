@@ -31,6 +31,8 @@ STL Notes is a collection of markdown files that cover the basics and advanced t
 * C++ data structures: Dive into the world of C++ data structures with in-depth explanations and practical usage scenarios using STL containers.
 * STL best practices: Learn industry-standard best practices for utilizing the STL in your C++ projects, backed by clear examples.
 
+https://github.com/Ali-Elbana/STL-Notes/assets/97269796/f36e6c23-4fff-4c29-a615-7e56e7f9c4f0
+
 ## Table of Contents:
 
 - [Mind map for the notes](#mind_map_for_the_notes)
