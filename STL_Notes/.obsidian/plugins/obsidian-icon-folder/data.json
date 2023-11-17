@@ -17,6 +17,7 @@
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
     "iconsBackgroundCheckEnabled": false,
-    "iconInFrontmatterEnabled": false
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true
   }
 }
