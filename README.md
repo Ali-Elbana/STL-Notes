@@ -21,6 +21,10 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
 
+## STL Notes Canvas
+
+https://github.com/Ali-Elbana/STL-Notes/assets/97269796/f36e6c23-4fff-4c29-a615-7e56e7f9c4f0
+
 ## A collection of markdown notes on C++ STL containers and algorithms.
 
 STL Notes is a collection of markdown files that cover the basics and advanced topics of C++ Standard Template Library (STL). STL is a set of template classes that provide common data structures and algorithms for C++ programming. These notes are created using Obsidian, a powerful knowledge base that works on top of a local folder of plain text Markdown files. The notes are organized into categories, such as Introduction, Class templates, Containers, Algorithms, etc. Each category contains subtopics with explanations, examples, and tables. The notes are intended to help anyone who wants to learn or review STL in a concise and comprehensive way.
@@ -30,9 +34,7 @@ STL Notes is a collection of markdown files that cover the basics and advanced t
 * STL algorithms: Discover efficient and powerful STL algorithms through extensive notes and code examples.
 * C++ data structures: Dive into the world of C++ data structures with in-depth explanations and practical usage scenarios using STL containers.
 * STL best practices: Learn industry-standard best practices for utilizing the STL in your C++ projects, backed by clear examples.
-
-https://github.com/Ali-Elbana/STL-Notes/assets/97269796/f36e6c23-4fff-4c29-a615-7e56e7f9c4f0
-
+  
 ## Table of Contents:
 
 - [Mind map for the notes](#mind_map_for_the_notes)
