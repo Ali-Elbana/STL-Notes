@@ -23,7 +23,7 @@
 
 ## STL Notes Canvas
 
-[![STL Notes Canvas](https://github.com/Ali-Elbana/STL-Notes/assets/97269796/f36e6c23-4fff-4c29-a615-7e56e7f9c4f0)
+[![STL Notes Canvas]](https://github.com/Ali-Elbana/STL-Notes/assets/97269796/f36e6c23-4fff-4c29-a615-7e56e7f9c4f0)
 
 ## A collection of markdown notes on C++ STL containers and algorithms.
 
