@@ -26,7 +26,7 @@ STL Notes is a collection of markdown files that cover the basics and advanced t
 
 `To get the full view of the Mind map and discover more:` [STL Notes-Mind map (whimsical.com)](https://whimsical.com/stl-notes-mind-map-KoqDJWhZLZXzorCjVRCDxa)
 
-## Installation and Usage
+## Installation and Usage:
 
 You can access the STL notes directly on GitHub by browsing the repository's files. The notes are organized in subdirectories and files based on different components of the STL. You can simply navigate through the directories to find the topics you are interested in.
 
@@ -43,16 +43,17 @@ git clone https://github.com/Ali-Elbana/STL-Notes.git
 
 ## Credits:
 
-`The credits of most of the images used in these notes are going to Eng. Umar Lone from:`[Complete Modern C++ (C++11/14/17) Course](https://www.udemy.com/course/beg-modern-cpp/)
+`The credits of most of the images used in these notes are going to Eng. Umar Lone from:`
+[Complete Modern C++ (C++11/14/17) Course](https://www.udemy.com/course/beg-modern-cpp/)
 
 ## Contribution Guidelines:
 
 Contributions to these STL notes are welcome! If you have any suggestions, improvements, or additional content to contribute, please follow these guidelines:
 
 1. Fork the repository.
-2. Create a new branch for your changes (`git branch feature/improvement`).
+2. Create a new branch for your changes (```git branch feature/improvement```).
 3. Make your modifications and additions.
-4. Commit and push your changes to your forked repository(`git commit -am 'Add new feature'`, `git push origin feature/improvement`).
+4. Commit and push your changes to your forked repository(```git commit -am 'Add new feature'```, ```git push origin feature/improvement```).
 5. Submit a pull request detailing the changes you made.
 
 ## License:
