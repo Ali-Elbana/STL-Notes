@@ -44,7 +44,7 @@ git clone https://github.com/Ali-Elbana/STL-Notes.git
 ## Credits:
 
 `The credits of most of the images used in these notes are going to Eng. Umar Lone from:`
-[Complete Modern C++ (C++11/14/17) Course](https://www.udemy.com/course/beg-modern-cpp/)
+- [Complete Modern C++ (C++11/14/17) Course](https://www.udemy.com/course/beg-modern-cpp/)
 
 ## Contribution Guidelines:
 
