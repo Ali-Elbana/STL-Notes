@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/ffc6d2ed-3e65-4c71-80a6-1482462ea5b2" alt="STL Notes">
   <br>
-  <em>STL Notes</em>
+  <em>STL Notes logo</em>
 </p>
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
