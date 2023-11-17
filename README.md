@@ -14,12 +14,13 @@
 [![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/issues)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls)
 [![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
 
 ## A collection of markdown notes on C++ STL containers and algorithms.
 
