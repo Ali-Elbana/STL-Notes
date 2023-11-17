@@ -20,7 +20,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
+[![Lines of Code](https://tokei.rs/b1/github/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
 
 ## A collection of markdown notes on C++ STL containers and algorithms.
 
