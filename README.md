@@ -6,6 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/watchers)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Ali-Elbana/STL-Notes/YourWorkflowName)](https://github.com/Ali-Elbana/STL-Notes/actions)
+[![Codecov](https://codecov.io/gh/Ali-Elbana/STL-Notes/branch-name/graph/badge.svg)](https://codecov.io/gh/Ali-Elbana/STL-Notes)
+[![WakaTime](https://wakatime.com/badge/github/Ali-Elbana/STL-Notes.svg)](https://wakatime.com/badge/github/Ali-Elbana/STL-Notes)
 
 [![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors)
@@ -15,7 +18,6 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 ## A collection of markdown notes on C++ STL containers and algorithms.
 
