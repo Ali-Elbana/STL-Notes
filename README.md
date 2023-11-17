@@ -7,8 +7,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/watchers)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Ali-Elbana/STL-Notes/YourWorkflowName)](https://github.com/Ali-Elbana/STL-Notes/actions)
-[![Codecov](https://codecov.io/gh/Ali-Elbana/STL-Notes/branch-name/graph/badge.svg)](https://codecov.io/gh/Ali-Elbana/STL-Notes)
-[![WakaTime](https://wakatime.com/badge/github/Ali-Elbana/STL-Notes.svg)](https://wakatime.com/badge/github/Ali-Elbana/STL-Notes)
 
 [![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors)
