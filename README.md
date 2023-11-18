@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://github.com/Ali-Elbana/STL-Notes/main/assets/97269796/8b7a7020-8752-4648-a15e-e5333eecd33b" alt="STL Notes Banner">
+  <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/906db985-004a-47f4-a166-3ff0464f7607" alt="STL Notes Banner">
 </p>
+
+<h1 align="center">STL Notes</h1>
 
 <p align="center">
   <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/9765b6d6-b5b1-45df-9795-9d7cdc97eb5f" alt="STL Notes Logo" width="200">
