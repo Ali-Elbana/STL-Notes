@@ -1,8 +1,12 @@
 
 <p align="center">
-  <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/ffc6d2ed-3e65-4c71-80a6-1482462ea5b2" alt="STL Notes">
-  <br>
-  <em>STL Notes logo</em>
+  <img src="https://raw.githubusercontent.com/Ali-Elbana/STL-Notes/main/assets/97269796/8b7a7020-8752-4648-a15e-e5333eecd33b" alt="STL Notes Banner">
+</p>
+
+<h1 align="center">STL Notes</h1>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ali-Elbana/STL-Notes/main/assets/97269796/5c029fc8-a7bd-4b17-a5b2-360f65a0a82c" alt="STL Notes Logo" width="200">
 </p>
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
@@ -20,8 +24,6 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes)
-
-## STL Notes Canvas
 
 https://github.com/Ali-Elbana/STL-Notes/assets/97269796/d89373c6-0f0e-4df3-81e4-fccc99c37240
 
