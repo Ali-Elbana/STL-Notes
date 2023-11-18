@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/Ali-Elbana/STL-Notes/main/assets/97269796/5c029fc8-a7bd-4b17-a5b2-360f65a0a82c" alt="STL Notes Logo" width="200">
+  <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/9765b6d6-b5b1-45df-9795-9d7cdc97eb5f" alt="STL Notes Logo" width="200">
 </p>
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
