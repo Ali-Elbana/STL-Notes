@@ -3,7 +3,8 @@
   <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/906db985-004a-47f4-a166-3ff0464f7607" alt="STL Notes Banner" style="width: 1280px; height: 640px;">
 </p>
 
-# **STL Notes: A Comprehensive Guide to C++ Standard Template Library** <img align="right" src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/9765b6d6-b5b1-45df-9795-9d7cdc97eb5f" alt="STL Notes Logo" width="200">
+<img align="left" src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/9765b6d6-b5b1-45df-9795-9d7cdc97eb5f" alt="STL Notes Logo" width="320">
+# **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
 
 [![GitHub stars](https://img.shields.io/github/stars/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members)
