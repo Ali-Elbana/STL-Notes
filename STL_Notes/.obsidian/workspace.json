@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
     "id": "d3132ee7a06e8959",
@@ -188,8 +188,16 @@
   },
   "active": "117d07df495ca8c5",
   "lastOpenFiles": [
-    "Pasted image 20231117190404.png",
+    "Screenshot 2023-11-18 143644.png",
+    "_d03f4df7-9033-4949-91ad-47ec316d2fa4.jpg",
+    "Creating_a_logo_for_C_STL_Standard_Template_L.jpg",
+    "_af7047e0-47ce-4396-9153-0535faecb219.jpg",
+    "_7aa3518a-1abc-4eef-9ea1-6134ffef4f2a.jpg",
+    "_1b4e9c73-6e61-4a0b-8ac5-d6bd031aa560.jpg",
+    "1-Introduction/1.1-Intro to STL Containers.md",
     "0-Roadmaps/0.1-Canvas view.canvas",
+    "0-Roadmaps/0.2-Mind map.md",
+    "Pasted image 20231117190404.png",
     "6-New features/6.1-Containers/6.1.0-General changes/6.1.0.1-General changes in containers.md",
     "6-New features/6.2-Algorithms/6.2.8-Permutation operations.md",
     "6-New features/6.2-Algorithms/6.2.7-Numeric operations.md",
@@ -214,8 +222,6 @@
     "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.8-Forward List.md",
     "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.7-List.md",
     "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.6-Stack.md",
-    "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.5-Deque.md",
-    "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.4-Priority Queue.md",
     "8-New features/8.2-Algorithms/8.1.0-General changes",
     "8-New features/8.1-Containers/8.1.0-General changes",
     "1-Introduction/Roadmap.canvas",
@@ -229,12 +235,6 @@
     "10-Images/8.1-STL Algorithms Summary.png",
     "10-Images/7.1-Introduction to STL Algorithms.png",
     "10-Images/6.1-How to choose a container.png",
-    "10-Images/6.1-STL Containers BigO.png",
-    "10-Images/4.1.1-Unordered containers specs.png",
-    "10-Images/3.3-Map specs.png",
-    "10-Images/3.1-Set specs.png",
-    "10-Images/2.8-Forward list specs.png",
-    "10-Images/2.7-List specs.png",
-    "10-Images/2.5-Deque specs.png"
+    "10-Images/6.1-STL Containers BigO.png"
   ]
 }
