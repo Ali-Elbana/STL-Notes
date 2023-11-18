@@ -8,20 +8,21 @@
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
 
-| --- |
-| [![GitHub stars](https://img.shields.io/github/stars/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/stargazers) |
-| [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members) |
-| [![GitHub watchers](https://img.shields.io/github/watchers/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/watchers) |
-| [![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE) |
-| [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors) |
-| [![GitHub issues](https://img.shields.io/github/issues/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/issues) |
-| [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) |
-| [![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls) |
-| [![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) |
-| [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases) |
-| [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases) |
-| [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes) |
-| --- |
+
+| [![GitHub stars](https://img.shields.io/github/stars/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/stargazers) 
+| [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members) 
+| [![GitHub watchers](https://img.shields.io/github/watchers/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/watchers) 
+
+[![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE) 
+[![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors) 
+[![GitHub issues](https://img.shields.io/github/issues/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/issues) 
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls) 
+[![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases) 
+[![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases) 
+[![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes) 
+
 
 
 
