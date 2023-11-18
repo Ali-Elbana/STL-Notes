@@ -1,8 +1,4 @@
 
-<p align="center">
-  <img src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/906db985-004a-47f4-a166-3ff0464f7607" alt="STL Notes Banner" style="width: 1280px; height: 640px;">
-</p>
-
 <div>
 <img align="left" src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/9765b6d6-b5b1-45df-9795-9d7cdc97eb5f" alt="STL Notes Logo" width="320">
 
@@ -13,6 +9,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members) 
 [![GitHub watchers](https://img.shields.io/github/watchers/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/watchers)
 
+[![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes) 
 [![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE) 
 ![GitHub search hit counter](https://img.shields.io/github/search/Ali-Elbana/STL-Notes/goto?style=flat-square)
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors)
@@ -25,8 +22,6 @@
 
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls)
 ![GitHub merged PRs](https://img.shields.io/github/issues-pr-closed/Ali-Elbana/STL-Notes?style=flat-square)
-
-[![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes) 
 
 ## STL Notes Canvas view:
 
