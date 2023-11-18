@@ -5,9 +5,7 @@
 
 <h1 align="center">STL Notes</h1>
 
-<p align="center">
-  <img src="![STL Notes logo](https://github.com/Ali-Elbana/STL-Notes/assets/97269796/5c029fc8-a7bd-4b17-a5b2-360f65a0a82c)" alt="STL Notes Logo" width="200">
-</p>
+<img src="assets/97269796/5c029fc8-a7bd-4b17-a5b2-360f65a0a82c" alt="STL Notes logo" width="320" align="center">
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
 
