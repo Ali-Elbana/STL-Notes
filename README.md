@@ -4,7 +4,6 @@
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
 
-
 [![GitHub stars](https://img.shields.io/github/stars/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/stargazers) 
 [![GitHub forks](https://img.shields.io/github/forks/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/network/members) 
 [![GitHub watchers](https://img.shields.io/github/watchers/Ali-Elbana/STL-Notes?style=social)](https://github.com/Ali-Elbana/STL-Notes/watchers)
@@ -19,8 +18,6 @@
 
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls)
 ![GitHub merged PRs](https://img.shields.io/github/issues-pr-closed/Ali-Elbana/STL-Notes?style=flat-square)
-
-## STL Notes Canvas view:
 
 https://github.com/Ali-Elbana/STL-Notes/assets/97269796/d89373c6-0f0e-4df3-81e4-fccc99c37240
 
