@@ -15,7 +15,6 @@
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
 [![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
-
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls)
 ![GitHub merged PRs](https://img.shields.io/github/issues-pr-closed/Ali-Elbana/STL-Notes?style=flat-square)
 
