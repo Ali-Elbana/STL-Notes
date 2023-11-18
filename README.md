@@ -1,11 +1,12 @@
-
 <p align="center">
-  <img src="![STL Notes banner](https://github.com/Ali-Elbana/STL-Notes/assets/97269796/8b7a7020-8752-4648-a15e-e5333eecd33b" alt="STL Notes Banner">
+  <img src="https://raw.githubusercontent.com/Ali-Elbana/STL-Notes/main/assets/97269796/8b7a7020-8752-4648-a15e-e5333eecd33b" alt="STL Notes Banner">
 </p>
 
 <h1 align="center">STL Notes</h1>
 
-<img src="assets/97269796/5c029fc8-a7bd-4b17-a5b2-360f65a0a82c" alt="STL Notes logo" width="320" align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ali-Elbana/STL-Notes/main/assets/97269796/5c029fc8-a7bd-4b17-a5b2-360f65a0a82c" alt="STL Notes Logo" width="200">
+</p>
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
 
