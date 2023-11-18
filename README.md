@@ -14,9 +14,6 @@
 ![GitHub search hit counter](https://img.shields.io/github/search/Ali-Elbana/STL-Notes/goto?style=flat-square)
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors)
 
-[![GitHub issues](https://img.shields.io/github/issues/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/issues)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/Ali-Elbana/STL-Notes?style=flat-square)
-
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
 [![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
 
