@@ -1,4 +1,4 @@
-
+<div>
 <img align="left" src="https://github.com/Ali-Elbana/STL-Notes/assets/97269796/9765b6d6-b5b1-45df-9795-9d7cdc97eb5f" alt="STL Notes Logo" width="320">
 
 # **STL Notes: A Comprehensive Guide to C++ Standard Template Library**
@@ -15,8 +15,10 @@
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
 [![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
+
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls)
 ![GitHub merged PRs](https://img.shields.io/github/issues-pr-closed/Ali-Elbana/STL-Notes?style=flat-square)
+</div>
 
 https://github.com/Ali-Elbana/STL-Notes/assets/97269796/d89373c6-0f0e-4df3-81e4-fccc99c37240
 
