@@ -17,16 +17,14 @@
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors) 
 [![GitHub issues](https://img.shields.io/github/issues/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/issues) 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls) 
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/pulls)
+![GitHub merged PRs](https://img.shields.io/github/issues-pr-closed/Ali-Elbana/STL-Notes?style=flat-square)
 [![Last commit](https://img.shields.io/github/last-commit/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/releases) 
 [![GitHub All Releases](https://img.shields.io/github/downloads/Ali-Elbana/STL-Notes/total)](https://github.com/Ali-Elbana/STL-Notes/releases) 
+![GitHub release date](https://img.shields.io/github/release-date/Ali-Elbana/STL-Notes?style=flat-square)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes) 
-
--
--
--
-
+[![WakaTime](https://wakatime.com/badge/github/Ali-Elbana/STL-Notes.svg)](https://wakatime.com/badge/github/Ali-Elbana/STL-Notes)
 
 ## STL Notes Canvas view:
 
