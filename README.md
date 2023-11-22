@@ -10,7 +10,7 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes) 
 [![License](https://img.shields.io/github/license/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/blob/main/LICENSE) 
 
-[![GitHub Clones]([https://img.shields.io/github/traffic/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/traffic](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.sre.im%2Fv1%2Fgithub%2Ftraffic%2Fclones%2Ftotal%3Fgit_user%3DAli-Elbana%26git_repo%3DSTL-Notes%26type%3Dcount%26label%3Dclones))
+[![Clones](https://img.shields.io/github/clones/Ali-Elbana/STL-Notes.svg?style=flat&color=brightgreen)](https://github.com/Ali-Elbana/STL-Notes)
 [![Contributors](https://img.shields.io/github/contributors/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/graphs/contributors)
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ali-Elbana/STL-Notes)](https://github.com/Ali-Elbana/STL-Notes/commits/main) 
