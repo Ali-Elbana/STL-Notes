@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6-New features/6.2-Algorithms/6.2.0-General changes.md",
+                "file": "2-Class templates/2.2-Tuple.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md",
+                "file": "2-Class templates/2.3-String.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md",
+                "file": "2-Class templates/2.3-String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md",
+                "file": "2-Class templates/2.3-String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md"
+                "file": "2-Class templates/2.3-String.md"
               }
             }
           },
@@ -188,6 +188,19 @@
   },
   "active": "117d07df495ca8c5",
   "lastOpenFiles": [
+    "2-Class templates/2.2-Tuple.md",
+    "2-Class templates/2.3-String.md",
+    "2-Class templates/2.1-Pair.md",
+    "6-New features/6.2-Algorithms/6.2.0-General changes.md",
+    "4-Algorithms/4.2-Modifying algorithms/4.2.2-Summary table.md",
+    "3-Containers/3.1-Sequential containers/3.1.6-Stack.md",
+    "3-Containers/3.3-Unordered associative containers/3.3.4-Unordered Map.md",
+    "3-Containers/3.3-Unordered associative containers/3.3.3-Unordered Multiset.md",
+    "3-Containers/3.2-Associative containers/3.2.3-Map.md",
+    "4-Algorithms/4.1-Non-modifying algorithms/4.1.2-Summary table.md",
+    "3-Containers/3.1-Sequential containers/3.1.2-Vector.md",
+    "3-Containers/3.1-Sequential containers/3.1.3-Queue.md",
+    "0-Roadmaps/0.2-Mind map.md",
     "Screenshot 2023-11-18 143644.png",
     "_d03f4df7-9033-4949-91ad-47ec316d2fa4.jpg",
     "Creating_a_logo_for_C_STL_Standard_Template_L.jpg",
@@ -196,7 +209,6 @@
     "_1b4e9c73-6e61-4a0b-8ac5-d6bd031aa560.jpg",
     "1-Introduction/1.1-Intro to STL Containers.md",
     "0-Roadmaps/0.1-Canvas view.canvas",
-    "0-Roadmaps/0.2-Mind map.md",
     "Pasted image 20231117190404.png",
     "6-New features/6.1-Containers/6.1.0-General changes/6.1.0.1-General changes in containers.md",
     "6-New features/6.2-Algorithms/6.2.8-Permutation operations.md",
@@ -207,21 +219,10 @@
     "6-New features/6.2-Algorithms/6.2.3-Sorting and Related algorithms.md",
     "6-New features/6.2-Algorithms/6.2.2-Modifying algorithms.md",
     "6-New features/6.2-Algorithms/6.2.1-Non-modifying algorithms.md",
-    "6-New features/6.2-Algorithms/6.2.0-General changes.md",
     "6-New features/6.1-Containers/6.1.3-Unordered associative containers/6.1.3.4-Unordered Multimap.md",
     "6-New features/6.1-Containers/6.1.0-General changes",
     "6-New features/6.1-Containers/6.1.3-Unordered associative containers/6.1.3.3-Unordered Map.md",
     "6-New features/6.1-Containers/6.1.3-Unordered associative containers/6.1.3.2-Unordered Multiset.md",
-    "6-New features/6.1-Containers/6.1.3-Unordered associative containers/6.1.3.1-Unordered Set.md",
-    "6-New features/6.1-Containers/6.1.3-Unordered associative containers/6.1.3.0-General changes.md",
-    "6-New features/6.1-Containers/6.1.2-Associative containers/6.1.2.4-Multimap.md",
-    "6-New features/6.1-Containers/6.1.2-Associative containers/6.1.2.3-Map.md",
-    "6-New features/6.1-Containers/6.1.2-Associative containers/6.1.2.2-Multiset.md",
-    "6-New features/6.1-Containers/6.1.2-Associative containers/6.1.2.1-Set.md",
-    "6-New features/6.1-Containers/6.1.2-Associative containers/6.1.2.0-General changes.md",
-    "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.8-Forward List.md",
-    "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.7-List.md",
-    "6-New features/6.1-Containers/6.1.1-Sequential containers/6.1.1.6-Stack.md",
     "8-New features/8.2-Algorithms/8.1.0-General changes",
     "8-New features/8.1-Containers/8.1.0-General changes",
     "1-Introduction/Roadmap.canvas",
@@ -234,7 +235,6 @@
     "6-New features",
     "10-Images/8.1-STL Algorithms Summary.png",
     "10-Images/7.1-Introduction to STL Algorithms.png",
-    "10-Images/6.1-How to choose a container.png",
-    "10-Images/6.1-STL Containers BigO.png"
+    "10-Images/6.1-How to choose a container.png"
   ]
 }
