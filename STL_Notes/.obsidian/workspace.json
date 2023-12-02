@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md",
+                "file": "0-Roadmaps/0.2-Mind map view.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md",
+                "file": "0-Roadmaps/0.2-Mind map view.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md",
+                "file": "0-Roadmaps/0.2-Mind map view.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Roadmaps/0.2-Mind map.md"
+                "file": "0-Roadmaps/0.2-Mind map view.md"
               }
             }
           },
@@ -189,7 +189,7 @@
   "active": "117d07df495ca8c5",
   "lastOpenFiles": [
     "0-Roadmaps/0.1-Canvas view.canvas",
-    "0-Roadmaps/0.2-Mind map.md",
+    "0-Roadmaps/0.2-Mind map view.md",
     "2-Class templates/2.3-String.md",
     "2-Class templates/2.2-Tuple.md",
     "2-Class templates/2.1-Pair.md",
