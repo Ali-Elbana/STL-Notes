@@ -4,9 +4,6 @@
 		{"id":"a43b602f63714e43","type":"file","file":"1-Introduction/1.2-Intro to STL Algorithms.md","x":760,"y":-20,"width":320,"height":300},
 		{"id":"a5f77c7c4f87e36e","type":"file","file":"1-Introduction/1.1-Intro to STL Containers.md","x":280,"y":-20,"width":300,"height":300},
 		{"id":"764af47ce0b78757","type":"text","text":"0-Start","x":560,"y":-400,"width":250,"height":60,"color":"6"},
-		{"id":"6845fb34c6f0a800","type":"text","text":"2-Class templates\n\n\n","x":218,"y":600,"width":935,"height":560,"color":"2"},
-		{"id":"66571295d37e76f6","type":"file","file":"2-Class templates/2.1-Pair.md","x":280,"y":760,"width":335,"height":297},
-		{"id":"11e9edffb3e46e76","type":"file","file":"2-Class templates/2.2-Tuple.md","x":725,"y":760,"width":355,"height":297},
 		{"id":"a35a1f2a8c075096","type":"text","text":"3-Containers\n\n","x":145,"y":1320,"width":1080,"height":1000,"color":"3"},
 		{"id":"c473d6d147e535fb","type":"text","text":"3.1-Sequential\n\n[[3.1.1-Array]]\n[[3.1.2-Vector]]\n[[3.1.3-Queue]]\n[[3.1.4-Priority Queue]]\n[[3.1.5-Deque]]\n[[3.1.6-Stack]]\n[[3.1.7-List]]\n[[3.1.8-Forward List]]\n\n","x":223,"y":1440,"width":402,"height":360},
 		{"id":"4b7f14cb9129883c","type":"text","text":"3.2-Associative\n\n[[3.2.1-Set]]\n[[3.2.2-Multiset]]\n[[3.2.3-Map]]\n[[3.2.4-Multimap]]\n\n\n","x":763,"y":1440,"width":392,"height":360},
@@ -28,7 +25,11 @@
 		{"id":"e645536e55628577","type":"text","text":"6-New features\n\n\n","x":-262,"y":4520,"width":1893,"height":1000,"color":"3"},
 		{"id":"b3ed0bb87a24bf51","type":"text","text":"6.1-Containers\n\n<u>6.1.0-General changes</u>\n[[6.1.0.1-General changes in containers]]\n\n<u>6.1.1-Sequential</u>\n[[6.1.1.1-Array]]\n[[6.1.1.2-Vector]]\n[[6.1.1.3-Queue]]\n[[6.1.1.4-Priority Queue]]\n[[6.1.1.5-Deque]]\n[[6.1.1.6-Stack]]\n[[6.1.1.7-List]]\n[[6.1.1.8-Forward List]]\n\n<u>6.1.2-Associative</u>\n[[6.1.2.1-Set]]\n[[6.1.2.2-Multiset]]\n[[6.1.2.3-Map]]\n[[6.1.2.4-Multimap]]\n\n<u>6.1.3-Unordered associative</u>\n[[6.1.3.1-Unordered Set]]\n[[6.1.3.2-Unordered Multiset]]\n[[6.1.3.3-Unordered Map]]\n[[6.1.3.4-Unordered Multimap]]\n\n\n\n","x":-202,"y":4620,"width":834,"height":800},
 		{"id":"7fc34ca0db5411d7","type":"text","text":"6.2-Algorithms\n\n[[6.2.0-General changes]]\n[[6.2.1-Non-modifying algorithms]]\n[[6.2.2-Modifying algorithms]]\n[[6.2.3-Sorting and Related algorithms]]\n[[6.2.4-Binary search algorithms]]\n[[6.2.5-Heap operations]]\n[[6.2.6-Set operations]]\n[[6.2.7-Numeric operations]]\n[[6.2.8-Permutation operations]]\n\n","x":685,"y":4620,"width":880,"height":800},
-		{"id":"d25200f7ff5d881a","type":"text","text":"7-End","x":560,"y":5640,"width":250,"height":60,"color":"6"}
+		{"id":"d25200f7ff5d881a","type":"text","text":"7-End","x":560,"y":5640,"width":250,"height":60,"color":"6"},
+		{"id":"6845fb34c6f0a800","type":"text","text":"2-Class templates\n\n\n","x":14,"y":600,"width":1342,"height":560,"color":"2"},
+		{"id":"66571295d37e76f6","type":"file","file":"2-Class templates/2.1-Pair.md","x":76,"y":760,"width":335,"height":297},
+		{"id":"11e9edffb3e46e76","type":"file","file":"2-Class templates/2.2-Tuple.md","x":508,"y":760,"width":355,"height":297},
+		{"id":"bf55625e148f4acf","type":"file","file":"2-Class templates/2.3-String.md","x":959,"y":760,"width":365,"height":297}
 	],
 	"edges":[
 		{"id":"513bc89310d5b172","fromNode":"764af47ce0b78757","fromSide":"bottom","toNode":"8e916cc7fdca775a","toSide":"top","color":"6"},
