@@ -48,7 +48,7 @@ STL Notes is a collection of markdown files that cover the basics and advanced t
 
 ## Mind map for the notes:
 
-![image](https://github.com/Ali-Elbana/STL-Notes/assets/97269796/a1ba9e5b-8fd5-4603-8318-8619da37a99a)
+![image](https://github.com/Ali-Elbana/STL-Notes/assets/97269796/b9156593-a0b8-4816-9c01-77e14e7db370)
 
 `To get the full view of the Mind map and discover more:` [STL Notes-Mind map (whimsical.com)](https://whimsical.com/stl-notes-mind-map-KoqDJWhZLZXzorCjVRCDxa)
 
